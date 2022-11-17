@@ -9,7 +9,7 @@ import { ProdutoService } from '../produto.service';
 })
 export class TabelaProdutosComponent implements OnInit {
   titulo = "Tabela de Produtos";
-  
+  nomePesquisado = "";
   lista: Produto[] = []
   
   constructor(private servico: ProdutoService) {

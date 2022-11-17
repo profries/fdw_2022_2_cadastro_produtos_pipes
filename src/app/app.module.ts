@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { registerLocaleData } from '@angular/common';
 import ptBr from '@angular/common/locales/pt';
 import { MoedaPipe } from './moeda.pipe';
+import { FiltroPesquisaPipe } from './filtro-pesquisa.pipe';
 
 //registerLocaleData(ptBr);
 
@@ -16,7 +17,8 @@ import { MoedaPipe } from './moeda.pipe';
     AppComponent,
     TabelaProdutosComponent,
     FormProdutosComponent,
-    MoedaPipe
+    MoedaPipe,
+    FiltroPesquisaPipe
   ],
   imports: [
     BrowserModule,
